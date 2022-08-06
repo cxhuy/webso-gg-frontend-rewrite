@@ -13,8 +13,12 @@
     }
 </script>
 
-<Navbar/>
+<div class="m-0 h-min w-min xs:w-screen bg-gray-900">
+    <div class="container mx-auto lg:w-10/12 xl:w-8/12">
+        <Navbar/>
 
-<main>
-    <Router {routes}/>
-</main>
+        <main>
+            <Router {routes}/>
+        </main>
+    </div>
+</div>
