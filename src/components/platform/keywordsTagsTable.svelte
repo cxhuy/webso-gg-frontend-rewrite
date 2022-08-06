@@ -6,10 +6,10 @@
     <div class="{Object.values(keywordsTagsData.tagData).length > 0 ? "grid md:grid-cols-2 gap-4" : ""}">
         <div>
             <div>
-                <span class="text-3xl font-light dark:text-gray-200">인기 키워드</span>
+                <span class="text-3xl font-light text-gray-200">인기 키워드</span>
             </div>
-            <table class="mt-3 w-full table-auto font-light dark:text-gray-200">
-                <thead class="bg-black bg-opacity-10 dark:bg-white dark:bg-opacity-10">
+            <table class="mt-3 w-full table-auto font-light text-gray-200">
+                <thead class="bg-white bg-opacity-10">
                     <tr class="text-left">
                         <th class="w-1/3 p-3 font-normal">키워드</th>
                         <th class="w-1/3 p-3 font-normal">작품수</th>
@@ -18,7 +18,7 @@
                 </thead>
                 <tbody>
                     {#each Object.values(keywordsTagsData.keywordData) as keyword}
-                        <tr class="bg-black bg-opacity-5 dark:bg-white dark:bg-opacity-5">
+                        <tr class="bg-white bg-opacity-5">
                             {#each Object.values(keyword) as data}
                                 <td class="p-3">{data.toLocaleString()}</td>
                             {/each}
@@ -30,10 +30,10 @@
         {#if Object.values(keywordsTagsData.tagData).length > 0}
             <div class="mt-6 md:mt-0">
                 <div>
-                    <span class="text-3xl font-light dark:text-gray-200">인기 태그</span>
+                    <span class="text-3xl font-light text-gray-200">인기 태그</span>
                 </div>
-                <table class="mt-3 w-full table-auto font-light dark:text-gray-200">
-                    <thead class="bg-black bg-opacity-10 dark:bg-white dark:bg-opacity-10">
+                <table class="mt-3 w-full table-auto font-light text-gray-200">
+                    <thead class="bg-white bg-opacity-10">
                         <tr class="text-left">
                             <th class="w-1/3 p-3 font-normal">태그</th>
                             <th class="w-1/3 p-3 font-normal">작품수</th>
@@ -42,7 +42,7 @@
                     </thead>
                     <tbody>
                         {#each Object.values(keywordsTagsData.tagData) as tag}
-                            <tr class="bg-black bg-opacity-5 dark:bg-white dark:bg-opacity-5">
+                            <tr class="bg-white bg-opacity-5">
                                 {#each Object.values(tag) as data}
                                     <td class="p-3">{data.toLocaleString()}</td>
                                 {/each}
