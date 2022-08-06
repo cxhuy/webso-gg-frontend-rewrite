@@ -16,9 +16,15 @@
 	function mouseLeave() {
 		isHovered = false;
 	}
+    function focus() {
+        isHovered = true;
+    }
+    function blur() {
+        isHovered = false
+    }
 </script>
 
-<div on:mouseover={mouseOver} on:mouseleave={mouseLeave} on:mousemove={mouseMove}>
+<div on:mouseover={mouseOver} on:mouseleave={mouseLeave} on:mousemove={mouseMove} on:focus={focus} on:blur={blur}>
 	<slot />
 </div>
 
