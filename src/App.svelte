@@ -6,11 +6,11 @@
 
     import Home from './routes/Home.svelte';
     import NotFound from './routes/NotFound.svelte';
-    import Munpia from './routes/platforms/munpia.svelte';
-    import Novelpia from './routes/platforms/novelpia.svelte';
-    import Kakaopage from './routes/platforms/kakaopage.svelte';
-    import Kakaostage from './routes/platforms/kakaostage.svelte';
-    import Navernovel from './routes/platforms/navernovel.svelte';
+    import Munpia from './routes/platforms/Munpia.svelte';
+    import Novelpia from './routes/platforms/Novelpia.svelte';
+    import Kakaopage from './routes/platforms/Kakaopage.svelte';
+    import Kakaostage from './routes/platforms/Kakaostage.svelte';
+    import Navernovel from './routes/platforms/Navernovel.svelte';
 
     let routes = {
         "/": Home,
