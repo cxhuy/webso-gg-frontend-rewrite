@@ -4,7 +4,7 @@
 
 <div class="container px-3 py-2.5 mt-6">
     <div>
-        <span class="text-3xl font-light text-gray-200">연재 주기에 따른 통계</span>
+        <span class="text-3xl font-light text-gray-200">연재 주기별 통계</span>
     </div>
     <div class="hidden lg:block">
         <table class="mt-3 w-full table-auto font-light text-gray-200">
