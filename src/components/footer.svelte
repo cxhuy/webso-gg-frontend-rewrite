@@ -1,4 +1,4 @@
-<div class="container w-max mx-auto px-3 py-8">
+<div class="container w-screen mx-auto px-3 py-8">
     <div>
         <span class="text-gray-400 pl-0.5 text-sm font-normal">© 2022 <a href="https://webso.gg">Webso.gg</a>. All Rights Reserved.</span>
     </div>
