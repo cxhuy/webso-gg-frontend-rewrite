@@ -33,7 +33,7 @@
             </div>
             <div class="mt-4 flex flex-col text-left">
                 <div>
-                    <span class="text-2xl font-extralighttext-gray-200">평균 조회수</span>
+                    <span class="text-2xl font-extralight text-gray-200">평균 조회수</span>
                 </div>
                 <div class="mt-1">
                     <span class="text-3xl lg:text-4xl font-light text-gray-100">{platformInfoData.avgViews.toLocaleString()}</span>
