@@ -4,7 +4,7 @@
     import Navbar from './components/navbar.svelte';
     import Footer from './components/footer.svelte';
 
-    import Index from './routes/Index.svelte';
+    import Home from './routes/Home.svelte';
     import NotFound from './routes/NotFound.svelte';
     import Munpia from './routes/platforms/munpia.svelte';
     import Novelpia from './routes/platforms/novelpia.svelte';
@@ -13,7 +13,7 @@
     import Navernovel from './routes/platforms/navernovel.svelte';
 
     let routes = {
-        "/": Index,
+        "/": Home,
         "/platforms/munpia": Munpia,
         "/platforms/novelpia": Novelpia,
         "/platforms/kakaopage": Kakaopage,
