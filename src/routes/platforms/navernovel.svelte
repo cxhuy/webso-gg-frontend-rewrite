@@ -1,6 +1,6 @@
 <script>
     // import Noticebar from "../../components/noticebar.svelte";
-    import PlatformInfo from "../../components/platform/platform-info.svelte";
+    import PlatformInfo from "../../components/platform/platformInfo.svelte";
     import Heatmap from "../../components/platform/heatmap.svelte"
     import GenreTable from "../../components/platform/genreTable.svelte";
     import UploadPeriodTable from "../../components/platform/uploadPeriodTable.svelte";
