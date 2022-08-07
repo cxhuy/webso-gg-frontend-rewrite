@@ -7,7 +7,7 @@
     import PricingTable from "../../components/platform/pricingTable.svelte";
     import KeywordsTagsTable from "../../components/platform/keywordsTagsTable.svelte";
 
-    import NovelpiaData from "../../jsondata/novelpia.json"
+    import NovelpiaData from "../../../public/jsondata/novelpia.json"
 </script>
 
 <PlatformInfo platformInfoData={NovelpiaData.platformInfoData}/>

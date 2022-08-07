@@ -7,11 +7,11 @@
     import PricingTable from "../../components/platform/pricingTable.svelte";
     import KeywordsTagsTable from "../../components/platform/keywordsTagsTable.svelte";
 
-    import MunpiaData from "../../jsondata/munpia.json"
+    import MunpiaData from "../../../public/jsondata/munpia.json"
 </script>
 
 <PlatformInfo platformInfoData={MunpiaData.platformInfoData}/>
-<Heatmap heatmapData={MunpiaData.heatmapData} platformPricings={MunpiaData.platformInfoData.platformPricings} platformGenres={MunpiaData.platformInfoData.platformGenres}/>
+<Heatmap heatmapData={MunpiaData.heatmapData} platformGenres={MunpiaData.platformInfoData.platformGenres}/>
 <GenreTable genreData={MunpiaData.genreData}/>
 <MonopolyTable monopolyData={MunpiaData.monopolyData}/>
 <UploadPeriodTable weeklyUploadCountData={MunpiaData.weeklyUploadCountData}/>

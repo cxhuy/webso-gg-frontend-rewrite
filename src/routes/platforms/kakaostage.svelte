@@ -6,11 +6,11 @@
     import UploadPeriodTable from "../../components/platform/uploadPeriodTable.svelte";
     import KeywordsTagsTable from "../../components/platform/keywordsTagsTable.svelte";
 
-    import KakaostageData from "../../jsondata/kakaostage.json"
+    import KakaostageData from "../../../public/jsondata/kakaostage.json"
 </script>
 
 <PlatformInfo platformInfoData={KakaostageData.platformInfoData}/>
-<Heatmap heatmapData={KakaostageData.heatmapData} platformPricings={KakaostageData.platformInfoData.platformPricings} platformGenres={KakaostageData.platformInfoData.platformGenres}/>
+<Heatmap heatmapData={KakaostageData.heatmapData} platformGenres={KakaostageData.platformInfoData.platformGenres}/>
 <GenreTable genreData={KakaostageData.genreData}/>
 <MonopolyTable monopolyData={KakaostageData.monopolyData}/>
 <UploadPeriodTable weeklyUploadCountData={KakaostageData.weeklyUploadCountData}/>

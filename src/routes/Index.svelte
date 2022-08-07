@@ -1,11 +1,11 @@
 <script>
     import MainPlatformInfo from "../components/platform/mainPlatformInfo.svelte";
 
-    import MunpiaData from "../jsondata/munpia.json"
-    import NovelpiaData from "../jsondata/novelpia.json"
-    import KakaopageData from "../jsondata/kakaopage.json"
-    import KakaostageData from "../jsondata/kakaostage.json"
-    import NavernovelData from "../jsondata/navernovel.json"
+    import MunpiaData from "../../public/jsondata/munpia.json"
+    import NovelpiaData from "../../public/jsondata/novelpia.json"
+    import KakaopageData from "../../public/jsondata/kakaopage.json"
+    import KakaostageData from "../../public/jsondata/kakaostage.json"
+    import NavernovelData from "../../public/jsondata/navernovel.json"
 </script>
 
 <svelte:head>
