@@ -24,11 +24,11 @@
         </div>
 
         <div class="flex mt-4">
-            <select bind:value={heatmapType} class="block py-1 px-0 w-1/6 text-sm bg-transparent border-0 border-b-2 appearance-none text-gray-400 border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
+            <select bind:value={heatmapType} class="block py-1 px-0 w-1/6 text-sm bg-transparent border-0 border-b-2 text-gray-400 border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
                 <option selected value="조회수">조회수</option>
                 <option value="작품수">작품수</option>
             </select>
-            <select bind:value={heatmapGenre} class="ml-4 block py-1 px-0 w-1/6 text-sm bg-transparent border-0 border-b-2 appearance-none text-gray-400 border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
+            <select bind:value={heatmapGenre} class="ml-4 block py-1 px-0 w-1/6 text-sm bg-transparent border-0 border-b-2 text-gray-400 border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
                 {#each platformGenres as genre}
                     {#if genre == "모든 장르"}
                         <option selected value="모든 장르">모든 장르</option>
